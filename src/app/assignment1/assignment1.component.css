@@ -1,0 +1,83 @@
+/* Global Styles */
+/* Add styles for personal info */
+.personal-info {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .info-label {
+    font-weight: bold;
+    margin-right: 10px;
+    color: #333;
+  }
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  h2 {
+    color: #333;
+  }
+  
+  /* Assignment List Styles */
+  .question {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    transition: background-color 0.3s ease;
+  }
+  
+  .question:hover {
+    background-color: #f0f0f0;
+  }
+  
+  h3 {
+    color: #555;
+  }
+  
+  /* Answer Styles */
+  .img-container {
+    margin-top: 10px;
+  }
+  
+  .answer-image {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Button Styles */
+  button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Add any other custom styles you need for your project */
+  
+  

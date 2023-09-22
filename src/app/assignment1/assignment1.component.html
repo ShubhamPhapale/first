@@ -1,0 +1,18 @@
+<div class="personal-info">
+    <p><span class="info-label">Name:</span> {{ MyName }}</p>
+    <p><span class="info-label">Roll Number:</span> {{ MyRollNo }}</p>
+    <p><span class="info-label">Email:</span> {{ MyEmail }}</p>
+  </div>
+  
+<div class="page">
+    <h2>Assignment 1</h2>
+    <ul>
+      <li *ngFor="let item of questionsAndAnswers" class="question">
+        <h3>{{ item.question }}</h3>
+        <div *ngIf="item.show" class="answer" [innerHTML]="item.answer"></div>
+        <button (click)="toggleDisplay(item)">{{ item.buttonname }}</button>
+      </li>
+    </ul>
+  </div>
+  
+  
